@@ -2,7 +2,7 @@
 # Add this script to your User Data before creating an instance
 
 # Install Apache Web Server
-yum install httpd -y
+yum install -y httpd 
 
 # Turn on web server
 systemctl enable httpd.service
