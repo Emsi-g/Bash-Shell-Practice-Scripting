@@ -6,7 +6,7 @@ yum install -y httpd
 
 # Turn on web server
 systemctl enable httpd.service
-systemctl start  httpd.service
+systemctl start httpd.service
 
 # Setup Web Server
 chmod 755 /var/www/html
